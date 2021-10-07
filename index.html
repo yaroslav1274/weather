@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather morning">
+            <div class="image">
+                <img src="img/sun.png" alt="sun" class="sun">
+            </div>
+            <div class="text">
+                <div class="time">РАНОК</div>
+                <div class="degrees">+ 10 &deg;</div>
+                <div class="weather-status mor">Сонячно</div>
+                <div class="wind mor">
+                    Вітер: &#8594;
+                    37км/год
+                </div>
+                <div class="humidity mor">
+                    Вологість: 45%
+                </div>
+            </div>
+        </div>
+        <div class="weather day">
+            <div class="image">
+                <img src="img/sunny-n-cloudy.png" alt="cloudy" class="cloudy">
+            </div>
+            <div class="text">
+                <div class="time">ДЕНЬ</div>
+                <div class="degrees">+ 20 &deg;</div>
+                <div class="weather-status da">Хмарно</div>
+                <div class="wind da">
+                    Вітер: &#8596;
+                    45км/год
+                </div>
+                <div class="humidity da">Вологість: 60%</div>
+            </div>
+        </div>
+        <div class="weather evening">
+            <div class="image">
+                <img src="img/rain.png" alt="rain" class="rain">
+            </div>
+            <div class="text">
+                <div class="time">ВЕЧІР</div>
+                <div class="degrees">+ 9 &deg;</div>
+                <div class="weather-status eve">Дощ</div>
+                <div class="wind eve">
+                    Вітер: &#8598;
+                    53км/год
+                </div>
+                <div class="humidity eve">Вологість: 92%</div>
+            </div>
+        </div>
+        <div class="weather night">
+            <div class="image">
+                <img src="img/cloudy-night.png" alt="night" class="night-cloudy">
+            </div>
+            <div class="text">
+                <div class="time">НІЧ</div>
+                <div class="degrees">+ 2 &deg;</div>
+                <div class="weather-status nig">Хмарно</div>
+                <div class="wind nig">
+                    Вітер: &#8599;
+                    33км/год
+                </div>
+                <div class="humidity nig">Вологість: 70%</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
